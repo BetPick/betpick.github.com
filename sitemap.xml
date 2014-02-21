@@ -2,6 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://BetPick.github.io/blog/2014/02/21/result/</loc>
+<<<<<<< HEAD
         <lastmod>2014-02-21T18:50:19+08:00</lastmod>
     </url>
     <url>
@@ -15,5 +16,20 @@
     <url>
         <loc>http://BetPick.github.io/robots.txt</loc>
         <lastmod>2014-02-21T18:50:19+08:00</lastmod>
+=======
+        <lastmod>2014-02-21T14:11:38+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BetPick.github.io/blog/archives/</loc>
+        <lastmod>2014-02-21T14:11:38+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BetPick.github.io/</loc>
+        <lastmod>2014-02-21T14:11:38+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://BetPick.github.io/robots.txt</loc>
+        <lastmod>2014-02-21T13:08:09+08:00</lastmod>
+>>>>>>> bf437adaaeb82c5e9b392a9aef0a5e445046952b
     </url>
 </urlset>
