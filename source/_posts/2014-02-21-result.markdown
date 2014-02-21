@@ -1,0 +1,8 @@
+---
+layout: post
+title: "推荐总结"
+date: 2014-02-21 13:27:53 +0800
+comments: true
+js: ['/javascripts/result/data.js','/javascripts/result/r.js']
+categories: 
+---
