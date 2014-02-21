@@ -62,7 +62,7 @@ for (var i = 0; i < data.length; i++) {
     }
     html += String.format(format, a.time, a.score, a.text, color, a.result, a.odds);
 }
-table = "<div id='header'/><div id='line'/><table border='2px'><tr><th width='100px' align='center'>发表时间</th><th width='40px' align='center'>比分</th><th width='500px' align='center'>推荐比赛</th><th width='40px' align='center'>结果</th><th width='40px' align='center'>水位</th></tr><tbody id='tb_body'>{0}</tbody></table>";
+table = "<div id='header'/><div id='line'/><table border='2px'><tr><th width='100px' align='center'>发表时间</th><th width='40px' align='center'>比分</th><th width='auto' align='center'>推荐比赛</th><th width='40px' align='center'>结果</th><th width='40px' align='center'>水位</th></tr><tbody id='tb_body'>{0}</tbody></table>";
 table = String.format(table,html);
 $(".entry-content").append(table);
 $('#line').html('---------------------------------------我是华丽丽的分割线---------------------------------------');
