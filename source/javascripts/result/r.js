@@ -1,3 +1,4 @@
+$("head").append('<style type="text/css"> .RED { color: #FF0000; font-weight: bold } .REDHALF { color: #FF0000 } .BLACK { color: #000000; font-weight: bold } .BLACKHALF { color: #000000 } .IGNORE { color: #765432 } </style>');
 String.format = function () {
     if (arguments.length == 0) {
         return null;
@@ -10,7 +11,7 @@ String.format = function () {
     return str;
 }
 var data = [];
-for (var i = 0; i < d.length; i++) {
+for (var i = d.length - 1; i >= 0; i--) {
     m = d[i];
     data.push({
         score: m[0],
@@ -20,7 +21,7 @@ for (var i = 0; i < d.length; i++) {
         odds: m[4]
     });
 }
-format = '<tr><td>{0}</td><td>{1}</td><td><span class="{3}">{2}</span></td><td>{4}</td><td>{5}</td></tr>';
+format = "<tr><td align='center'>{0}</td><td align='center'>{1}</td><td><span class='{3}'>{2}</span></td><td align='center'>{4}</td><td>{5}</td></tr>";
 yield = 0.0;
 win = 0;
 halfwin = 0;
@@ -61,11 +62,10 @@ for (var i = 0; i < data.length; i++) {
     }
     html += String.format(format, a.time, a.score, a.text, color, a.result, a.odds);
 }
-table = "<table border='2px'><tr><th width='120px'>发表时间</th><th width='50px'>比分</th><th width='400px'>推荐比赛</th><th width='50px'>结果</th><th width='40px'>水位</th></tr><tbody id='tb_body'>{0}</tbody></table>";
+table = "<div id='header'/><div id='line'/><table border='2px'><tr><th width='100px' align='center'>发表时间</th><th width='40px' align='center'>比分</th><th width='500px' align='center'>推荐比赛</th><th width='40px' align='center'>结果</th><th width='40px' align='center'>水位</th></tr><tbody id='tb_body'>{0}</tbody></table>";
 table = String.format(table,html);
 $(".entry-content").append(table);
-/*
+$('#line').html('---------------------------------------我是华丽丽的分割线---------------------------------------');
 $('#header').html(String.format('推荐{0}场，{1}黑{2}黑半{3}走水{4}红半{5}红，收入:{6}，收益率：{7}%',
     data.length, lose, halflose, ignore, halfwin, win, yield.toFixed(2), ((yield / data.length) * 100).toFixed(1)
 ));
-*/
