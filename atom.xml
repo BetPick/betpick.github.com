@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[球半/两球倾心推荐]]></title>
   <link href="http://BetPick.github.io/atom.xml" rel="self"/>
   <link href="http://BetPick.github.io/"/>
-  <updated>2014-02-21T13:08:19+08:00</updated>
+  <updated>2014-02-21T14:56:37+08:00</updated>
   <id>http://BetPick.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[球半/两球]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[推荐总结]]></title>
+    <link href="http://BetPick.github.io/blog/2014/02/21/result/"/>
+    <updated>2014-02-21T13:27:53+08:00</updated>
+    <id>http://BetPick.github.io/blog/2014/02/21/result</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
