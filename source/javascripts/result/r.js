@@ -10,6 +10,7 @@ String.format = function () {
     }
     return str;
 }
+$("head").append(String.format('<script src="{0}?v={1}"></script>','/javascripts/result/data.201402.js',escape(new Date().toString())));
 var data = [];
 for (var i = d.length - 1; i >= 0; i--) {
     m = d[i];
