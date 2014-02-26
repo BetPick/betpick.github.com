@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[球半/两球倾心推荐]]></title>
-  <link href="http://BetPick.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 总结 | 球半/两球倾心推荐]]></title>
+  <link href="http://BetPick.github.io/blog/categories/zong-jie/atom.xml" rel="self"/>
   <link href="http://BetPick.github.io/"/>
   <updated>2014-02-21T16:08:34+08:00</updated>
   <id>http://BetPick.github.io/</id>
