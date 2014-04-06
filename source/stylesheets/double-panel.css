@@ -1,0 +1,22 @@
+.wrap {
+    clear:both;
+    max-height: 300px;
+}
+
+.left_col {
+    float:left;
+    width: 450px;
+    max-height: 300px;
+    overflow-y:auto;
+}
+
+.right_col {
+    float:left;
+    left: 450px;
+    max-height: 300px;
+    overflow-y:auto;
+}
+
+h6 {
+    clear:both;
+}
