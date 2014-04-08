@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[球半/两球倾心推荐]]></title>
-  <link href="http://BetPick.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 盘口解析 | 球半/两球倾心推荐]]></title>
+  <link href="http://BetPick.github.io/blog/categories/pan-kou-jie-xi/atom.xml" rel="self"/>
   <link href="http://BetPick.github.io/"/>
   <updated>2014-04-08T03:46:31+01:00</updated>
   <id>http://BetPick.github.io/</id>
@@ -68,114 +68,6 @@
 <p>再来看看玩家熟知的BET365，欧赔大幅度跳水显示出客胜的热度，亚盘方面同样支持力度不足。</p>
 
 <p>基于以上判断，沙尔克04在实力占优、玩家投注心理倾向的时候并未得到博彩公司的支持，或者说是这里埋伏着一个巨大的陷阱，云达不莱梅率先进球最终保持不败也就情理之中了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[推荐汇总]]></title>
-    <link href="http://BetPick.github.io/blog/2014/04/01/total/"/>
-    <updated>2014-04-01T01:00:00+01:00</updated>
-    <id>http://BetPick.github.io/blog/2014/04/01/total</id>
-    <content type="html"><![CDATA[<!--more-->
-
-
-
-
-<script src='https://raw.github.com/BetPick/betpick.data/master/result/r.js'></script>
-
-
-
-
-<div id='divTable'></div>
-
-
-
-
-<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.github.com/BetPick/betpick.data/master/result/data.total.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
-
-
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2014年4月推荐总结]]></title>
-    <link href="http://BetPick.github.io/blog/2014/04/01/result/"/>
-    <updated>2014-04-01T01:00:00+01:00</updated>
-    <id>http://BetPick.github.io/blog/2014/04/01/result</id>
-    <content type="html"><![CDATA[<!--more-->
-
-
-
-
-<script src='https://raw.github.com/BetPick/betpick.data/master/result/r.js'></script>
-
-
-
-
-<div id='divTable'></div>
-
-
-
-
-<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.github.com/BetPick/betpick.data/master/result/data.201404.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
-
-
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2014年3月推荐总结]]></title>
-    <link href="http://BetPick.github.io/blog/2014/03/03/result/"/>
-    <updated>2014-03-03T04:43:49+00:00</updated>
-    <id>http://BetPick.github.io/blog/2014/03/03/result</id>
-    <content type="html"><![CDATA[<!--more-->
-
-
-
-
-<script src='https://raw.github.com/BetPick/betpick.data/master/result/r.js'></script>
-
-
-
-
-<div id='divTable'></div>
-
-
-
-
-<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.github.com/BetPick/betpick.data/master/result/data.201403.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
-
-
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2014年2月推荐总结]]></title>
-    <link href="http://BetPick.github.io/blog/2014/02/21/result/"/>
-    <updated>2014-02-21T05:27:53+00:00</updated>
-    <id>http://BetPick.github.io/blog/2014/02/21/result</id>
-    <content type="html"><![CDATA[<!--more-->
-
-
-
-
-<script src='https://raw.github.com/BetPick/betpick.data/master/result/r.js'></script>
-
-
-
-
-<div id='divTable'></div>
-
-
-
-
-<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.github.com/BetPick/betpick.data/master/result/data.201402.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
-
-
-
 ]]></content>
   </entry>
   
