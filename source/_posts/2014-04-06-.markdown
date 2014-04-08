@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "云达不莱梅VS沙尔克04"
+title: "4月5日云达不莱梅VS沙尔克04"
 date: 2014-04-06 06:10:10 +0100
 comments: true
 styles: [double-panel,data-table]
-categories: 盘口解析  马后炮
+categories: 盘口解析  马后炮  德甲
 ---
 
 <!--more-->
