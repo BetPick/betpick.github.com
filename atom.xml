@@ -4,7 +4,7 @@
   <title><![CDATA[球半/两球倾心推荐]]></title>
   <link href="http://BetPick.github.io/atom.xml" rel="self"/>
   <link href="http://BetPick.github.io/"/>
-  <updated>2014-05-06T16:58:14+01:00</updated>
+  <updated>2014-06-29T16:51:29+01:00</updated>
   <id>http://BetPick.github.io/</id>
   <author>
     <name><![CDATA[球半/两球]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[6月推荐汇总]]></title>
+    <link href="http://BetPick.github.io/blog/2014/06/29/result/"/>
+    <updated>2014-06-29T16:31:40+01:00</updated>
+    <id>http://BetPick.github.io/blog/2014/06/29/result</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+
+
+<script src='https://raw.github.com/BetPick/betpick.data/master/result/r.js'></script>
+
+
+
+
+<div id='divTable'></div>
+
+
+
+
+<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.github.com/BetPick/betpick.data/master/result/data.201406.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[5月推荐汇总]]></title>
