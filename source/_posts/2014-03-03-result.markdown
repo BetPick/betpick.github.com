@@ -9,9 +9,9 @@ categories: 总结
 
 <!--more-->
 
-<script src='https://raw.github.com/BetPick/betpick.data/master/result/r.js'></script>
+<script src='https://raw.githubusercontent.com/BetPick/betpick.data/master/result/r.js'></script>
 
 <div id='divTable'></div>
 
-<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.github.com/BetPick/betpick.data/master/result/data.201403.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
+<script type='text/javascript'> function loadScript(url, callback){ var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onreadystatechange = callback; script.onload = callback; head.appendChild(script); } function randomString(length){ var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split(''); if (! length) { length = Math.floor(Math.random() * chars.length); } var str = ''; for (var i = 0; i < length; i++) { str += chars[Math.floor(Math.random() * chars.length)]; } return str; } var myPrettyCode = function(){ $(document).ready(function(){formatHtml('divTable');}); }; url='https://raw.githubusercontent.com/BetPick/betpick.data/master/result/data.201403.js?v='+randomString(8); loadScript(url, myPrettyCode); </script>
 
